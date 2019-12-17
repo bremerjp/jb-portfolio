@@ -70,6 +70,11 @@ function modules() {
   return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing);
 }
 
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+  
+}
+
 // CSS task
 function css() {
   return gulp
